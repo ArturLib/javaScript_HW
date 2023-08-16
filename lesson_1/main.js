@@ -76,10 +76,13 @@ console.log(typeof c);
 //   За допомогою 3-х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
 //   Вивести в консоль.
 
-let userLastName = prompt('Enter your last name')
 let userFirstName = prompt('Enter your name')
 let userMiddleName = prompt('Enter your middle name')
-
-console.log(userLastName, userFirstName, userMiddleName)
+let userAge = prompt('How old are you?')
+if (userAge > 0) {
+    console.log(`My name is`, userFirstName, userMiddleName,`, I am`, userAge, `years old`)
+} else {
+    console.log(`Maybe you made a mistake when entering your age`)
+}
 
 //--------------------------------------------------------------------------------------------------------------//
