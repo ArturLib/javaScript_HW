@@ -78,7 +78,7 @@ console.log(typeof c);
 
 let userFirstName = prompt('Enter your name')
 let userMiddleName = prompt('Enter your middle name')
-let userAge = prompt('How old are you?')
+let userAge = Number(prompt('How old are you?'))
 if (userAge > 0) {
     console.log(`My name is`, userFirstName, userMiddleName,`, I am`, userAge, `years old`)
 } else {
