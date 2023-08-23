@@ -1,0 +1,26 @@
+.product-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-title {
+    margin-right: 20px;
+}
+
+.product-image {
+    width: 200px;
+    margin: 30px 0;
+}
+
+.true {
+    background-color: whitesmoke;
+}
+
+.false {
+    background-color: aliceblue;
+}
+
+.age {
+    background-color: cyan;
+}
