@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="" id="user">
+    <label>
+        <input type="text" placeholder="name" name="userName">
+    </label>
+    <label>
+        <input type="text" placeholder="surname" name="userSurname">
+    </label>
+    <label>
+        <input type="number" placeholder="age" name="userAge">
+    </label>
+    <button>send you form</button>
+</form>
+
+
+<div id="number"></div>
+
+
+<button id="previousPage" disabled="disabled">previous page</button>
+<button id="nextPage">next page</button>
+<div id="wrapPage"></div>
+
+
+<form action="" id="userAdult">
+    <label>
+        <input type="number" placeholder="enter your age" name="userAge">
+    </label>
+    <button>verification of adulthood</button>
+</form>
+
+
+<form action="" id="tableData" name="table">
+    <label class="flex">
+        <input type="number" placeholder="number of row" name="row">
+    </label>
+    <label class="flex">
+        <input type="number" placeholder="number of columns" name="columns">
+    </label>
+    <label class="flex">
+        <input type="text" placeholder="text that will fill the table" name="text">
+    </label>
+    <button>click to generate the table</button>
+</form>
+<div id="table"></div>
+
+
+<div id="reload">100 грн</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
